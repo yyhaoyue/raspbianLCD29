@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/pl2303.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/serial/pl2303.ko drivers/usb/serial/pl2303.o drivers/usb/serial/pl2303.mod.o

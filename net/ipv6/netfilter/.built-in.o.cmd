@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/built-in.o :=  rm -f net/ipv6/netfilter/built-in.o; /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ar rcsD net/ipv6/netfilter/built-in.o

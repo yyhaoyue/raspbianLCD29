@@ -1,0 +1,1 @@
+cmd_drivers/usb/mon/usbmon.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/mon/usbmon.o drivers/usb/mon/mon_main.o drivers/usb/mon/mon_stat.o drivers/usb/mon/mon_text.o drivers/usb/mon/mon_bin.o 

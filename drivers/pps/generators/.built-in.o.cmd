@@ -1,0 +1,1 @@
+cmd_drivers/pps/generators/built-in.o :=  rm -f drivers/pps/generators/built-in.o; /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ar rcsD drivers/pps/generators/built-in.o

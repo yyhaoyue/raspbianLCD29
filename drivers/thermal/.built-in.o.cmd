@@ -1,0 +1,1 @@
+cmd_drivers/thermal/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/thermal/built-in.o drivers/thermal/thermal_sys.o drivers/thermal/samsung/built-in.o drivers/thermal/bcm2835-thermal.o 

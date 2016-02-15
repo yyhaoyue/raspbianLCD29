@@ -1,0 +1,1 @@
+cmd_drivers/connector/built-in.o :=  rm -f drivers/connector/built-in.o; /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ar rcsD drivers/connector/built-in.o

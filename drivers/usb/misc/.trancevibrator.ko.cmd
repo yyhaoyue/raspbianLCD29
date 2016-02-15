@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/trancevibrator.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/misc/trancevibrator.ko drivers/usb/misc/trancevibrator.o drivers/usb/misc/trancevibrator.mod.o

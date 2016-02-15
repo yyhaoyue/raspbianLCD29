@@ -1,0 +1,4 @@
+kernel/drivers/char/hw_random/bcm2708-rng.ko
+kernel/drivers/char/hw_random/bcm2835-rng.ko
+kernel/drivers/char/broadcom/bcm2835-gpiomem.ko
+kernel/drivers/char/broadcom/bcm2835_smi_dev.ko

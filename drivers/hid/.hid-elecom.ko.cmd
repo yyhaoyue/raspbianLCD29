@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-elecom.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-elecom.ko drivers/hid/hid-elecom.o drivers/hid/hid-elecom.mod.o

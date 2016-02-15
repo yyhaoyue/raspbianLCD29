@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_stk1135.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/usb/gspca/gspca_stk1135.o drivers/media/usb/gspca/stk1135.o 

@@ -1,0 +1,137 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x7869d85c, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0xad56c2ec, __VMLINUX_SYMBOL_STR(seq_release_net) },
+	{ 0xcc3d5b3c, __VMLINUX_SYMBOL_STR(seq_read) },
+	{ 0x271332ef, __VMLINUX_SYMBOL_STR(seq_lseek) },
+	{ 0x4f3bb0b6, __VMLINUX_SYMBOL_STR(sock_no_sendpage) },
+	{ 0x4902ed36, __VMLINUX_SYMBOL_STR(sock_no_mmap) },
+	{ 0x446cb27f, __VMLINUX_SYMBOL_STR(sock_no_getsockopt) },
+	{ 0xd01727b8, __VMLINUX_SYMBOL_STR(sock_no_setsockopt) },
+	{ 0xa8cf4685, __VMLINUX_SYMBOL_STR(sock_no_shutdown) },
+	{ 0xab2a0370, __VMLINUX_SYMBOL_STR(sock_no_listen) },
+	{ 0x9799baae, __VMLINUX_SYMBOL_STR(sock_no_ioctl) },
+	{ 0x23839de2, __VMLINUX_SYMBOL_STR(datagram_poll) },
+	{ 0x44059587, __VMLINUX_SYMBOL_STR(sock_no_getname) },
+	{ 0xd453db9a, __VMLINUX_SYMBOL_STR(sock_no_accept) },
+	{ 0x15608355, __VMLINUX_SYMBOL_STR(sock_no_socketpair) },
+	{ 0xad7d3763, __VMLINUX_SYMBOL_STR(sock_no_connect) },
+	{ 0xf37a5060, __VMLINUX_SYMBOL_STR(sock_no_bind) },
+	{ 0x1ea8144d, __VMLINUX_SYMBOL_STR(xfrm_register_km) },
+	{ 0xfe675bfd, __VMLINUX_SYMBOL_STR(sock_register) },
+	{ 0x255d7073, __VMLINUX_SYMBOL_STR(register_pernet_subsys) },
+	{ 0xba353a38, __VMLINUX_SYMBOL_STR(proto_register) },
+	{ 0xc55aa484, __VMLINUX_SYMBOL_STR(proto_unregister) },
+	{ 0x704323, __VMLINUX_SYMBOL_STR(unregister_pernet_subsys) },
+	{ 0x62737e1d, __VMLINUX_SYMBOL_STR(sock_unregister) },
+	{ 0xc8fc6511, __VMLINUX_SYMBOL_STR(xfrm_unregister_km) },
+	{ 0x7a8ca627, __VMLINUX_SYMBOL_STR(xfrm_count_pfkey_enc_supported) },
+	{ 0xa575945, __VMLINUX_SYMBOL_STR(xfrm_count_pfkey_auth_supported) },
+	{ 0x28e23139, __VMLINUX_SYMBOL_STR(xfrm_probe_algs) },
+	{ 0x6db4da31, __VMLINUX_SYMBOL_STR(remove_proc_entry) },
+	{ 0x8b2491f8, __VMLINUX_SYMBOL_STR(xfrm_alloc_spi) },
+	{ 0xf10526ac, __VMLINUX_SYMBOL_STR(verify_spi_info) },
+	{ 0xf35245c, __VMLINUX_SYMBOL_STR(xfrm_find_acq) },
+	{ 0x778770, __VMLINUX_SYMBOL_STR(xfrm_ealg_get_byname) },
+	{ 0x7c30b8c7, __VMLINUX_SYMBOL_STR(xfrm_calg_get_byname) },
+	{ 0xe122af95, __VMLINUX_SYMBOL_STR(xfrm_aalg_get_byname) },
+	{ 0x56bb269, __VMLINUX_SYMBOL_STR(xfrm_ealg_get_byidx) },
+	{ 0x74e1a843, __VMLINUX_SYMBOL_STR(xfrm_aalg_get_byidx) },
+	{ 0x47e5e10b, __VMLINUX_SYMBOL_STR(xfrm_policy_byid) },
+	{ 0xbc8b0f41, __VMLINUX_SYMBOL_STR(xfrm_calg_get_byid) },
+	{ 0x92dbc6c1, __VMLINUX_SYMBOL_STR(xfrm_aalg_get_byid) },
+	{ 0xabd00110, __VMLINUX_SYMBOL_STR(xfrm_state_add) },
+	{ 0x39bdec82, __VMLINUX_SYMBOL_STR(xfrm_state_update) },
+	{ 0xbc5fdf69, __VMLINUX_SYMBOL_STR(xfrm_init_state) },
+	{ 0xe914e41e, __VMLINUX_SYMBOL_STR(strcpy) },
+	{ 0xce7a55c1, __VMLINUX_SYMBOL_STR(xfrm_ealg_get_byid) },
+	{ 0x43bce0a6, __VMLINUX_SYMBOL_STR(xfrm_state_alloc) },
+	{ 0x1a37fd9d, __VMLINUX_SYMBOL_STR(xfrm_state_delete) },
+	{ 0x307db8e, __VMLINUX_SYMBOL_STR(xfrm_policy_insert) },
+	{ 0xd5b7f972, __VMLINUX_SYMBOL_STR(xfrm_garbage_collect) },
+	{ 0xf7fa75d, __VMLINUX_SYMBOL_STR(xfrm_policy_bysel_ctx) },
+	{ 0x2a6820c3, __VMLINUX_SYMBOL_STR(proc_create_data) },
+	{ 0x1e9edfb7, __VMLINUX_SYMBOL_STR(seq_hlist_start_head_rcu) },
+	{ 0x67b78eb3, __VMLINUX_SYMBOL_STR(seq_hlist_next_rcu) },
+	{ 0x8b618d08, __VMLINUX_SYMBOL_STR(overflowuid) },
+	{ 0x8bc6e51b, __VMLINUX_SYMBOL_STR(seq_printf) },
+	{ 0xdc10e026, __VMLINUX_SYMBOL_STR(sock_i_ino) },
+	{ 0x56aedab7, __VMLINUX_SYMBOL_STR(sock_i_uid) },
+	{ 0x71702608, __VMLINUX_SYMBOL_STR(seq_open_net) },
+	{ 0xc2cdbf1, __VMLINUX_SYMBOL_STR(synchronize_sched) },
+	{ 0xc0056be5, __VMLINUX_SYMBOL_STR(_raw_write_unlock_bh) },
+	{ 0x6ec9ccdb, __VMLINUX_SYMBOL_STR(_raw_write_lock_bh) },
+	{ 0x31fedde5, __VMLINUX_SYMBOL_STR(xfrm_state_lookup) },
+	{ 0xc7f2e4e6, __VMLINUX_SYMBOL_STR(__xfrm_state_destroy) },
+	{ 0xdd3916ac, __VMLINUX_SYMBOL_STR(_raw_spin_unlock_bh) },
+	{ 0xa1d55e90, __VMLINUX_SYMBOL_STR(_raw_spin_lock_bh) },
+	{ 0x5c73d7aa, __VMLINUX_SYMBOL_STR(xfrm_find_acq_byseq) },
+	{ 0x6e65f823, __VMLINUX_SYMBOL_STR(km_state_notify) },
+	{ 0xb2842f4b, __VMLINUX_SYMBOL_STR(xfrm_state_flush) },
+	{ 0xcf2e8637, __VMLINUX_SYMBOL_STR(xfrm_state_walk) },
+	{ 0xc9ff34f7, __VMLINUX_SYMBOL_STR(xfrm_state_walk_done) },
+	{ 0x470db77f, __VMLINUX_SYMBOL_STR(kmalloc_caches) },
+	{ 0x83b009ea, __VMLINUX_SYMBOL_STR(xfrm_state_walk_init) },
+	{ 0x3e77014c, __VMLINUX_SYMBOL_STR(kmem_cache_alloc_trace) },
+	{ 0xed063f62, __VMLINUX_SYMBOL_STR(skb_copy) },
+	{ 0x91682875, __VMLINUX_SYMBOL_STR(km_policy_notify) },
+	{ 0xb7a65bea, __VMLINUX_SYMBOL_STR(xfrm_policy_flush) },
+	{ 0x2f1063f2, __VMLINUX_SYMBOL_STR(copy_from_iter) },
+	{ 0x3946ac6d, __VMLINUX_SYMBOL_STR(mutex_unlock) },
+	{ 0xec97dd82, __VMLINUX_SYMBOL_STR(mutex_lock) },
+	{ 0x7dd04b7f, __VMLINUX_SYMBOL_STR(sock_init_data) },
+	{ 0xeced1769, __VMLINUX_SYMBOL_STR(sk_alloc) },
+	{ 0x5c54b7e6, __VMLINUX_SYMBOL_STR(ns_capable) },
+	{ 0x60b9c079, __VMLINUX_SYMBOL_STR(__sock_recv_ts_and_drops) },
+	{ 0x65679cc8, __VMLINUX_SYMBOL_STR(skb_free_datagram) },
+	{ 0x9f1bcd4a, __VMLINUX_SYMBOL_STR(skb_copy_datagram_iter) },
+	{ 0xde71313f, __VMLINUX_SYMBOL_STR(skb_recv_datagram) },
+	{ 0x16305289, __VMLINUX_SYMBOL_STR(warn_slowpath_null) },
+	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
+	{ 0x7e60a82d, __VMLINUX_SYMBOL_STR(skb_queue_purge) },
+	{ 0x37a0cba, __VMLINUX_SYMBOL_STR(kfree) },
+	{ 0x9d669763, __VMLINUX_SYMBOL_STR(memcpy) },
+	{ 0x12da5bb2, __VMLINUX_SYMBOL_STR(__kmalloc) },
+	{ 0x86094711, __VMLINUX_SYMBOL_STR(xfrm_policy_destroy) },
+	{ 0x34293264, __VMLINUX_SYMBOL_STR(xfrm_policy_alloc) },
+	{ 0xf9913570, __VMLINUX_SYMBOL_STR(xfrm_policy_walk_done) },
+	{ 0xe5ed5467, __VMLINUX_SYMBOL_STR(xfrm_policy_walk_init) },
+	{ 0xdd83cc26, __VMLINUX_SYMBOL_STR(xfrm_policy_walk) },
+	{ 0x438822a1, __VMLINUX_SYMBOL_STR(skb_put) },
+	{ 0xfa2a45e, __VMLINUX_SYMBOL_STR(__memzero) },
+	{ 0xf7ee2aba, __VMLINUX_SYMBOL_STR(sock_rfree) },
+	{ 0x38a02db9, __VMLINUX_SYMBOL_STR(skb_clone) },
+	{ 0xf1961543, __VMLINUX_SYMBOL_STR(sk_free) },
+	{ 0x75ac96f9, __VMLINUX_SYMBOL_STR(skb_queue_tail) },
+	{ 0xf95efe2e, __VMLINUX_SYMBOL_STR(kfree_skb) },
+	{ 0x2838548b, __VMLINUX_SYMBOL_STR(__alloc_skb) },
+	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
+	{ 0xb1ad28e0, __VMLINUX_SYMBOL_STR(__gnu_mcount_nc) },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=";
+
+
+MODULE_INFO(srcversion, "43350C345CBF96D8849DB2F");

@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/ipheth.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/usb/ipheth.ko drivers/net/usb/ipheth.o drivers/net/usb/ipheth.mod.o

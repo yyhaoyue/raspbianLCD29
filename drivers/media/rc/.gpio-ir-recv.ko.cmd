@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/gpio-ir-recv.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/gpio-ir-recv.ko drivers/media/rc/gpio-ir-recv.o drivers/media/rc/gpio-ir-recv.mod.o

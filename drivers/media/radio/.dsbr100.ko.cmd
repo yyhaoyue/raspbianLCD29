@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/dsbr100.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/radio/dsbr100.ko drivers/media/radio/dsbr100.o drivers/media/radio/dsbr100.mod.o

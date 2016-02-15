@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/b43/b43.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/b43/b43.ko drivers/net/wireless/b43/b43.o drivers/net/wireless/b43/b43.mod.o

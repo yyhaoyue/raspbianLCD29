@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_l2tp.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/xt_l2tp.ko net/netfilter/xt_l2tp.o net/netfilter/xt_l2tp.mod.o

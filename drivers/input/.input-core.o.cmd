@@ -1,0 +1,1 @@
+cmd_drivers/input/input-core.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/input/input-core.o drivers/input/input.o drivers/input/input-compat.o drivers/input/input-mt.o drivers/input/ff-core.o 

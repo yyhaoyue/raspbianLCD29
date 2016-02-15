@@ -1,0 +1,1 @@
+cmd_drivers/pps/clients/pps-gpio.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/pps/clients/pps-gpio.ko drivers/pps/clients/pps-gpio.o drivers/pps/clients/pps-gpio.mod.o

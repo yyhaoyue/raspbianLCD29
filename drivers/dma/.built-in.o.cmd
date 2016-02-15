@@ -1,0 +1,1 @@
+cmd_drivers/dma/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/dma/built-in.o drivers/dma/dmaengine.o drivers/dma/virt-dma.o drivers/dma/of-dma.o drivers/dma/bcm2708-dmaengine.o drivers/dma/xilinx/built-in.o 

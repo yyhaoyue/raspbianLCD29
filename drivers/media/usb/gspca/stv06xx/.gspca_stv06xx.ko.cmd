@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/stv06xx/gspca_stv06xx.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/gspca/stv06xx/gspca_stv06xx.ko drivers/media/usb/gspca/stv06xx/gspca_stv06xx.o drivers/media/usb/gspca/stv06xx/gspca_stv06xx.mod.o

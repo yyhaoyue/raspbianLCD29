@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_hash_netport.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/ipset/ip_set_hash_netport.ko net/netfilter/ipset/ip_set_hash_netport.o net/netfilter/ipset/ip_set_hash_netport.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-thin-pool.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/md/dm-thin-pool.o drivers/md/dm-thin.o drivers/md/dm-thin-metadata.o 

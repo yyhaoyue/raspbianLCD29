@@ -1,0 +1,1 @@
+cmd_drivers/iio/common/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/iio/common/built-in.o drivers/iio/common/hid-sensors/built-in.o drivers/iio/common/ssp_sensors/built-in.o drivers/iio/common/st_sensors/built-in.o 

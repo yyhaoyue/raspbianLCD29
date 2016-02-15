@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-kworld-315u.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-kworld-315u.ko drivers/media/rc/keymaps/rc-kworld-315u.o drivers/media/rc/keymaps/rc-kworld-315u.mod.o

@@ -1,0 +1,1 @@
+cmd_net/sched/cls_u32.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/cls_u32.ko net/sched/cls_u32.o net/sched/cls_u32.mod.o

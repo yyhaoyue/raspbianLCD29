@@ -1,0 +1,3 @@
+kernel/drivers/hwmon/hwmon.ko
+kernel/drivers/hwmon/sht21.ko
+kernel/drivers/hwmon/shtc1.ko

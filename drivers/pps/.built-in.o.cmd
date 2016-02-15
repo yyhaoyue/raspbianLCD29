@@ -1,0 +1,1 @@
+cmd_drivers/pps/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/pps/built-in.o drivers/pps/clients/built-in.o drivers/pps/generators/built-in.o 

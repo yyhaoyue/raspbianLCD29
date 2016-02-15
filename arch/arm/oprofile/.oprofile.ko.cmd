@@ -1,0 +1,1 @@
+cmd_arch/arm/oprofile/oprofile.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o arch/arm/oprofile/oprofile.ko arch/arm/oprofile/oprofile.o arch/arm/oprofile/oprofile.mod.o

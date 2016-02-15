@@ -1,0 +1,1 @@
+cmd_crypto/crypto.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o crypto/crypto.o crypto/api.o crypto/cipher.o crypto/compress.o crypto/memneq.o 

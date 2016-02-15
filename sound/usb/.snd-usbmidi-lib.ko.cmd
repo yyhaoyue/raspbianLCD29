@@ -1,0 +1,1 @@
+cmd_sound/usb/snd-usbmidi-lib.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o sound/usb/snd-usbmidi-lib.ko sound/usb/snd-usbmidi-lib.o sound/usb/snd-usbmidi-lib.mod.o

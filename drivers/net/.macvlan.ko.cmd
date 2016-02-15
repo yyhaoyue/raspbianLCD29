@@ -1,0 +1,1 @@
+cmd_drivers/net/macvlan.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/macvlan.ko drivers/net/macvlan.o drivers/net/macvlan.mod.o

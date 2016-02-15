@@ -1,0 +1,1 @@
+cmd_sound/soc/generic/snd-soc-simple-card.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o sound/soc/generic/snd-soc-simple-card.ko sound/soc/generic/snd-soc-simple-card.o sound/soc/generic/snd-soc-simple-card.mod.o

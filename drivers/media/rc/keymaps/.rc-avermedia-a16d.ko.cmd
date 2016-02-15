@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-avermedia-a16d.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-avermedia-a16d.ko drivers/media/rc/keymaps/rc-avermedia-a16d.o drivers/media/rc/keymaps/rc-avermedia-a16d.mod.o

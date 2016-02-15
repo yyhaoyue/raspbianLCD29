@@ -1,0 +1,1 @@
+cmd_net/ieee802154/ieee802154_socket.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o net/ieee802154/ieee802154_socket.o net/ieee802154/socket.o 

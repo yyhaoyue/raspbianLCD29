@@ -1,0 +1,1 @@
+cmd_drivers/block/drbd/drbd.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/block/drbd/drbd.ko drivers/block/drbd/drbd.o drivers/block/drbd/drbd.mod.o

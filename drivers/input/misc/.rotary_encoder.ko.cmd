@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/rotary_encoder.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/rotary_encoder.ko drivers/input/misc/rotary_encoder.o drivers/input/misc/rotary_encoder.mod.o

@@ -1,0 +1,1 @@
+cmd_block/partitions/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o block/partitions/built-in.o block/partitions/check.o block/partitions/mac.o block/partitions/msdos.o block/partitions/efi.o 

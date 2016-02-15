@@ -1,0 +1,1 @@
+cmd_drivers/usb/common/usb-common.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/common/usb-common.o drivers/usb/common/common.o 

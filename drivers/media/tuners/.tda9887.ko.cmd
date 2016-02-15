@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/tda9887.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/tda9887.ko drivers/media/tuners/tda9887.o drivers/media/tuners/tda9887.mod.o

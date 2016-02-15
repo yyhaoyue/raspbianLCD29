@@ -1,0 +1,1 @@
+cmd_net/netfilter/nfnetlink_log.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/nfnetlink_log.ko net/netfilter/nfnetlink_log.o net/netfilter/nfnetlink_log.mod.o

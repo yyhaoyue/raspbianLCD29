@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/hdpvr/hdpvr.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/hdpvr/hdpvr.ko drivers/media/usb/hdpvr/hdpvr.o drivers/media/usb/hdpvr/hdpvr.mod.o

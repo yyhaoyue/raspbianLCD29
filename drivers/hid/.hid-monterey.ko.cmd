@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-monterey.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-monterey.ko drivers/hid/hid-monterey.o drivers/hid/hid-monterey.mod.o

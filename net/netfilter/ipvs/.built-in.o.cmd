@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipvs/built-in.o :=  rm -f net/netfilter/ipvs/built-in.o; /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ar rcsD net/netfilter/ipvs/built-in.o

@@ -1,0 +1,1 @@
+cmd_net/irda/irnet/irnet.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o net/irda/irnet/irnet.o net/irda/irnet/irnet_ppp.o net/irda/irnet/irnet_irda.o 

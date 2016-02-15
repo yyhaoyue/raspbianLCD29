@@ -1,0 +1,1 @@
+cmd_drivers/media/common/siano/smsdvb.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/common/siano/smsdvb.o drivers/media/common/siano/smsdvb-main.o 

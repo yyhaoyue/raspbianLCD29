@@ -1,0 +1,1 @@
+cmd_arch/arm/lib/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o arch/arm/lib/built-in.o arch/arm/lib/uaccess_with_memcpy.o 

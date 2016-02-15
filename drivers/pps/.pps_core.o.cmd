@@ -1,0 +1,1 @@
+cmd_drivers/pps/pps_core.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/pps/pps_core.o drivers/pps/pps.o drivers/pps/kapi.o drivers/pps/sysfs.o 

@@ -1,0 +1,1 @@
+cmd_drivers/char/broadcom/vc_cma/vc-cma.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/char/broadcom/vc_cma/vc-cma.o drivers/char/broadcom/vc_cma/vc_cma.o 

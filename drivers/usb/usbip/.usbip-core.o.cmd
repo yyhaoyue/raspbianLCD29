@@ -1,0 +1,1 @@
+cmd_drivers/usb/usbip/usbip-core.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/usbip/usbip-core.o drivers/usb/usbip/usbip_common.o drivers/usb/usbip/usbip_event.o 

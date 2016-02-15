@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/usbtouchscreen.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/usbtouchscreen.ko drivers/input/touchscreen/usbtouchscreen.o drivers/input/touchscreen/usbtouchscreen.mod.o

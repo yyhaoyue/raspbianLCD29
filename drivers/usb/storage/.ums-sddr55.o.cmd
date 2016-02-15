@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/ums-sddr55.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/storage/ums-sddr55.o drivers/usb/storage/sddr55.o 

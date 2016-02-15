@@ -1,0 +1,1 @@
+cmd_drivers/mfd/wl1273-core.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/mfd/wl1273-core.ko drivers/mfd/wl1273-core.o drivers/mfd/wl1273-core.mod.o

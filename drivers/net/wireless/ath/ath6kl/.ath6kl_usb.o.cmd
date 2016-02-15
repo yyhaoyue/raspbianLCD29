@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath6kl/ath6kl_usb.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/wireless/ath/ath6kl/ath6kl_usb.o drivers/net/wireless/ath/ath6kl/usb.o 

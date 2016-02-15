@@ -1,0 +1,1 @@
+cmd_drivers/staging/fbtft/fbtft.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/staging/fbtft/fbtft.o drivers/staging/fbtft/fbtft-core.o drivers/staging/fbtft/fbtft-sysfs.o drivers/staging/fbtft/fbtft-bus.o drivers/staging/fbtft/fbtft-io.o 

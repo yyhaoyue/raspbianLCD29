@@ -1,0 +1,1 @@
+cmd_net/bluetooth/hidp/hidp.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/bluetooth/hidp/hidp.ko net/bluetooth/hidp/hidp.o net/bluetooth/hidp/hidp.mod.o

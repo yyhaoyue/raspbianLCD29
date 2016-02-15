@@ -1,0 +1,1 @@
+cmd_drivers/hsi/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/hsi/built-in.o drivers/hsi/controllers/built-in.o drivers/hsi/clients/built-in.o 

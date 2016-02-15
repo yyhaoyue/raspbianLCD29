@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-kensington.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-kensington.ko drivers/hid/hid-kensington.o drivers/hid/hid-kensington.mod.o

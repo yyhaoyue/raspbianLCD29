@@ -1,0 +1,1 @@
+cmd_drivers/thermal/thermal_sys.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/thermal/thermal_sys.o drivers/thermal/thermal_core.o drivers/thermal/of-thermal.o drivers/thermal/step_wise.o 

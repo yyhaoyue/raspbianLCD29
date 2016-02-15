@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/mmc/host/built-in.o drivers/mmc/host/sdhci.o drivers/mmc/host/bcm2835-sdhost.o drivers/mmc/host/bcm2835-mmc.o drivers/mmc/host/sdhci-pltfm.o 

@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/usblcd.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/misc/usblcd.ko drivers/usb/misc/usblcd.o drivers/usb/misc/usblcd.mod.o

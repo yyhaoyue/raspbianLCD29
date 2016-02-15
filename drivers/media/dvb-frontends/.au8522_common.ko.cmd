@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/au8522_common.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/au8522_common.ko drivers/media/dvb-frontends/au8522_common.o drivers/media/dvb-frontends/au8522_common.mod.o

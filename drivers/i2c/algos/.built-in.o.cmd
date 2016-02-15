@@ -1,0 +1,1 @@
+cmd_drivers/i2c/algos/built-in.o :=  rm -f drivers/i2c/algos/built-in.o; /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ar rcsD drivers/i2c/algos/built-in.o

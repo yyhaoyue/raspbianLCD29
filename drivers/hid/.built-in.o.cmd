@@ -1,0 +1,1 @@
+cmd_drivers/hid/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/hid/built-in.o drivers/hid/hid.o drivers/hid/hid-generic.o drivers/hid/usbhid/built-in.o 

@@ -1,0 +1,1 @@
+cmd_kernel/configs.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o kernel/configs.ko kernel/configs.o kernel/configs.mod.o

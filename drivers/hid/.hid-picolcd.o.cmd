@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-picolcd.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/hid/hid-picolcd.o drivers/hid/hid-picolcd_core.o drivers/hid/hid-picolcd_debugfs.o 

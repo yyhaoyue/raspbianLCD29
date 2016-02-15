@@ -1,0 +1,1 @@
+cmd_lib/zlib_deflate/zlib_deflate.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o lib/zlib_deflate/zlib_deflate.ko lib/zlib_deflate/zlib_deflate.o lib/zlib_deflate/zlib_deflate.mod.o

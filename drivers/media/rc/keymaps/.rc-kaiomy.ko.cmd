@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-kaiomy.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-kaiomy.ko drivers/media/rc/keymaps/rc-kaiomy.o drivers/media/rc/keymaps/rc-kaiomy.mod.o

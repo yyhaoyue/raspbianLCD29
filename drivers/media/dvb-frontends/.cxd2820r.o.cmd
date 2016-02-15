@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/cxd2820r.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/dvb-frontends/cxd2820r.o drivers/media/dvb-frontends/cxd2820r_core.o drivers/media/dvb-frontends/cxd2820r_c.o drivers/media/dvb-frontends/cxd2820r_t.o drivers/media/dvb-frontends/cxd2820r_t2.o 

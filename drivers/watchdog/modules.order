@@ -1,0 +1,2 @@
+kernel/drivers/watchdog/bcm2708_wdog.ko
+kernel/drivers/watchdog/bcm2835_wdt.ko

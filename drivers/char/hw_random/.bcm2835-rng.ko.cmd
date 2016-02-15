@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/bcm2835-rng.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/char/hw_random/bcm2835-rng.ko drivers/char/hw_random/bcm2835-rng.o drivers/char/hw_random/bcm2835-rng.mod.o

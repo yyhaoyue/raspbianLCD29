@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-pcm1794a.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/soc/codecs/snd-soc-pcm1794a.o sound/soc/codecs/pcm1794a.o 

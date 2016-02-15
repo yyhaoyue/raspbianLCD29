@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/tea5761.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/tea5761.ko drivers/media/tuners/tea5761.o drivers/media/tuners/tea5761.mod.o

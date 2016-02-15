@@ -1,0 +1,1 @@
+cmd_sound/drivers/snd-serial-u16550.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/drivers/snd-serial-u16550.o sound/drivers/serial-u16550.o 

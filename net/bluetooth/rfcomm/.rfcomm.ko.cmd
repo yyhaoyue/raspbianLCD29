@@ -1,0 +1,1 @@
+cmd_net/bluetooth/rfcomm/rfcomm.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/bluetooth/rfcomm/rfcomm.ko net/bluetooth/rfcomm/rfcomm.o net/bluetooth/rfcomm/rfcomm.mod.o

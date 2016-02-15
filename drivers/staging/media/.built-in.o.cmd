@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/staging/media/built-in.o drivers/staging/media/lirc/built-in.o 

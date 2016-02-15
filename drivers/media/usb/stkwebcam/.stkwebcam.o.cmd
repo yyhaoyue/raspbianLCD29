@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/stkwebcam/stkwebcam.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/usb/stkwebcam/stkwebcam.o drivers/media/usb/stkwebcam/stk-webcam.o drivers/media/usb/stkwebcam/stk-sensor.o 

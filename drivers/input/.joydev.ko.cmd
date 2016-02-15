@@ -1,0 +1,1 @@
+cmd_drivers/input/joydev.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/joydev.ko drivers/input/joydev.o drivers/input/joydev.mod.o

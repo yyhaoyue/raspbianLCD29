@@ -1,0 +1,1 @@
+cmd_drivers/net/bonding/bonding.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/bonding/bonding.ko drivers/net/bonding/bonding.o drivers/net/bonding/bonding.mod.o

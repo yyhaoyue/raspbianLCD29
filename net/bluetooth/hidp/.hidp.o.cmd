@@ -1,0 +1,1 @@
+cmd_net/bluetooth/hidp/hidp.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o net/bluetooth/hidp/hidp.o net/bluetooth/hidp/core.o net/bluetooth/hidp/sock.o 

@@ -1,0 +1,1 @@
+cmd_drivers/clocksource/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/clocksource/built-in.o drivers/clocksource/clksrc-of.o drivers/clocksource/arm_arch_timer.o drivers/clocksource/dummy_timer.o 

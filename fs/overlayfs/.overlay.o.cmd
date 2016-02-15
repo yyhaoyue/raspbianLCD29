@@ -1,0 +1,1 @@
+cmd_fs/overlayfs/overlay.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/overlayfs/overlay.o fs/overlayfs/super.o fs/overlayfs/inode.o fs/overlayfs/dir.o fs/overlayfs/readdir.o fs/overlayfs/copy_up.o 

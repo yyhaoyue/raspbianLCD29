@@ -1,0 +1,1 @@
+cmd_net/netfilter/nfnetlink_acct.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/nfnetlink_acct.ko net/netfilter/nfnetlink_acct.o net/netfilter/nfnetlink_acct.mod.o

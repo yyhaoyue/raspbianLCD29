@@ -1,0 +1,1 @@
+cmd_drivers/net/irda/ks959-sir.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/irda/ks959-sir.ko drivers/net/irda/ks959-sir.o drivers/net/irda/ks959-sir.mod.o

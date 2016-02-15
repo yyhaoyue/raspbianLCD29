@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ft6236.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/ft6236.ko drivers/input/touchscreen/ft6236.o drivers/input/touchscreen/ft6236.mod.o

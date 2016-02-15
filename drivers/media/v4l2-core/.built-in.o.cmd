@@ -1,0 +1,1 @@
+cmd_drivers/media/v4l2-core/built-in.o :=  rm -f drivers/media/v4l2-core/built-in.o; /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ar rcsD drivers/media/v4l2-core/built-in.o

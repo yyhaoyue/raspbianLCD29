@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/rtl2832.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/rtl2832.ko drivers/media/dvb-frontends/rtl2832.o drivers/media/dvb-frontends/rtl2832.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-samsung.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-samsung.ko drivers/hid/hid-samsung.o drivers/hid/hid-samsung.mod.o

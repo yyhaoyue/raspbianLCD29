@@ -1,0 +1,1 @@
+cmd_drivers/mtd/onenand/built-in.o :=  rm -f drivers/mtd/onenand/built-in.o; /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ar rcsD drivers/mtd/onenand/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb-v2/dvb-usb-au6610.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb-v2/dvb-usb-au6610.ko drivers/media/usb/dvb-usb-v2/dvb-usb-au6610.o drivers/media/usb/dvb-usb-v2/dvb-usb-au6610.mod.o

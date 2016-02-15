@@ -1,0 +1,1 @@
+cmd_drivers/hid/wacom.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/hid/wacom.o drivers/hid/wacom_wac.o drivers/hid/wacom_sys.o 

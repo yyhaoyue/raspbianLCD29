@@ -1,0 +1,1 @@
+cmd_drivers/staging/speakup/speakup.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/speakup/speakup.ko drivers/staging/speakup/speakup.o drivers/staging/speakup/speakup.mod.o

@@ -1,0 +1,1 @@
+cmd_crypto/crypto_blkcipher.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o crypto/crypto_blkcipher.o crypto/ablkcipher.o crypto/blkcipher.o 

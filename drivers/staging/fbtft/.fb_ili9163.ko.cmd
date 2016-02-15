@@ -1,0 +1,1 @@
+cmd_drivers/staging/fbtft/fb_ili9163.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/fbtft/fb_ili9163.ko drivers/staging/fbtft/fb_ili9163.o drivers/staging/fbtft/fb_ili9163.mod.o

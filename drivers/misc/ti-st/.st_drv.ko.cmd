@@ -1,0 +1,1 @@
+cmd_drivers/misc/ti-st/st_drv.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/misc/ti-st/st_drv.ko drivers/misc/ti-st/st_drv.o drivers/misc/ti-st/st_drv.mod.o

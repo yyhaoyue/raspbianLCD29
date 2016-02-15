@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/hostap/hostap.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/hostap/hostap.ko drivers/net/wireless/hostap/hostap.o drivers/net/wireless/hostap/hostap.mod.o

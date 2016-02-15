@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-bcm2835.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/spi/spi-bcm2835.ko drivers/spi/spi-bcm2835.o drivers/spi/spi-bcm2835.mod.o

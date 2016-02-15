@@ -1,0 +1,1 @@
+cmd_drivers/media/v4l2-core/tuner.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/v4l2-core/tuner.o drivers/media/v4l2-core/tuner-core.o 

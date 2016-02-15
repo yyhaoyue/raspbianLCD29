@@ -1,0 +1,1 @@
+cmd_arch/arm/vfp/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL  --no-warn-mismatch   -r -o arch/arm/vfp/built-in.o arch/arm/vfp/vfp.o 

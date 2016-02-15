@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/libertas_tf/libertas_tf.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/wireless/libertas_tf/libertas_tf.o drivers/net/wireless/libertas_tf/main.o drivers/net/wireless/libertas_tf/cmd.o 

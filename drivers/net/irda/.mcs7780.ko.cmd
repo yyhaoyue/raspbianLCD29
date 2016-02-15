@@ -1,0 +1,1 @@
+cmd_drivers/net/irda/mcs7780.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/irda/mcs7780.ko drivers/net/irda/mcs7780.o drivers/net/irda/mcs7780.mod.o

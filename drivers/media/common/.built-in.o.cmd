@@ -1,0 +1,1 @@
+cmd_drivers/media/common/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/common/built-in.o drivers/media/common/b2c2/built-in.o drivers/media/common/saa7146/built-in.o drivers/media/common/siano/built-in.o 

@@ -1,0 +1,1 @@
+cmd_fs/notify/dnotify/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/notify/dnotify/built-in.o fs/notify/dnotify/dnotify.o 

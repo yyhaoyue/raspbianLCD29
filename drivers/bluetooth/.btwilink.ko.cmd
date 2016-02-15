@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/btwilink.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/bluetooth/btwilink.ko drivers/bluetooth/btwilink.o drivers/bluetooth/btwilink.mod.o

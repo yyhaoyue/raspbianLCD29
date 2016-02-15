@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_conntrack_proto_udplite.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/nf_conntrack_proto_udplite.ko net/netfilter/nf_conntrack_proto_udplite.o net/netfilter/nf_conntrack_proto_udplite.mod.o

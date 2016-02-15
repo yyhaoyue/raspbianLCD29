@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/ip6t_mh.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/ipv6/netfilter/ip6t_mh.ko net/ipv6/netfilter/ip6t_mh.o net/ipv6/netfilter/ip6t_mh.mod.o

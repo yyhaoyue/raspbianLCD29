@@ -1,0 +1,1 @@
+cmd_fs/ocfs2/dlmfs/ocfs2_dlmfs.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/ocfs2/dlmfs/ocfs2_dlmfs.o fs/ocfs2/dlmfs/userdlm.o fs/ocfs2/dlmfs/dlmfs.o 

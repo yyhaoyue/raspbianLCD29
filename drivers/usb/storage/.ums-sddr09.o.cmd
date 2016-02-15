@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/ums-sddr09.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/storage/ums-sddr09.o drivers/usb/storage/sddr09.o 

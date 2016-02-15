@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mwifiex/mwifiex_sdio.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/wireless/mwifiex/mwifiex_sdio.o drivers/net/wireless/mwifiex/sdio.o 

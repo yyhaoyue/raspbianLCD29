@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-rpi-proto.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o sound/soc/bcm/snd-soc-rpi-proto.ko sound/soc/bcm/snd-soc-rpi-proto.o sound/soc/bcm/snd-soc-rpi-proto.mod.o

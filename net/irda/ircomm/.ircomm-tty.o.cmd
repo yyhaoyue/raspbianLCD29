@@ -1,0 +1,1 @@
+cmd_net/irda/ircomm/ircomm-tty.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o net/irda/ircomm/ircomm-tty.o net/irda/ircomm/ircomm_tty.o net/irda/ircomm/ircomm_tty_attach.o net/irda/ircomm/ircomm_tty_ioctl.o net/irda/ircomm/ircomm_param.o 

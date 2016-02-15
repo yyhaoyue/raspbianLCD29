@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/iforce/iforce.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/input/joystick/iforce/iforce.o drivers/input/joystick/iforce/iforce-ff.o drivers/input/joystick/iforce/iforce-main.o drivers/input/joystick/iforce/iforce-packets.o drivers/input/joystick/iforce/iforce-usb.o 

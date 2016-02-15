@@ -1,0 +1,1 @@
+cmd_drivers/net/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/built-in.o drivers/net/mii.o drivers/net/Space.o drivers/net/loopback.o drivers/net/ethernet/built-in.o drivers/net/hamradio/built-in.o drivers/net/wireless/built-in.o drivers/net/usb/built-in.o 

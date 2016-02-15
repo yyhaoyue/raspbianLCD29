@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/light/built-in.o :=  rm -f drivers/staging/iio/light/built-in.o; /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ar rcsD drivers/staging/iio/light/built-in.o

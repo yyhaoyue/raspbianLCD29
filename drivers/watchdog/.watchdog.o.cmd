@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/watchdog.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/watchdog/watchdog.o drivers/watchdog/watchdog_core.o drivers/watchdog/watchdog_dev.o 

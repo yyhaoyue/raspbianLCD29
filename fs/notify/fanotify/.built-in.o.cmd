@@ -1,0 +1,1 @@
+cmd_fs/notify/fanotify/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/notify/fanotify/built-in.o fs/notify/fanotify/fanotify.o fs/notify/fanotify/fanotify_user.o 

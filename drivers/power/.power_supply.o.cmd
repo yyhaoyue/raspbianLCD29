@@ -1,0 +1,1 @@
+cmd_drivers/power/power_supply.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/power/power_supply.o drivers/power/power_supply_core.o drivers/power/power_supply_sysfs.o drivers/power/power_supply_leds.o 

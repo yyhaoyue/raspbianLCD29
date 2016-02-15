@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rt2x00/rt2800lib.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/rt2x00/rt2800lib.ko drivers/net/wireless/rt2x00/rt2800lib.o drivers/net/wireless/rt2x00/rt2800lib.mod.o

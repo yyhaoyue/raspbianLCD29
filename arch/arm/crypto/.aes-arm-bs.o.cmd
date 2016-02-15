@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/aes-arm-bs.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o arch/arm/crypto/aes-arm-bs.o arch/arm/crypto/aesbs-core.o arch/arm/crypto/aesbs-glue.o 

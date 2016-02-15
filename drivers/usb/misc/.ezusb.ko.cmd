@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/ezusb.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/misc/ezusb.ko drivers/usb/misc/ezusb.o drivers/usb/misc/ezusb.mod.o

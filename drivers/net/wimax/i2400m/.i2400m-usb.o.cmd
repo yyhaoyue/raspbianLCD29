@@ -1,0 +1,1 @@
+cmd_drivers/net/wimax/i2400m/i2400m-usb.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/wimax/i2400m/i2400m-usb.o drivers/net/wimax/i2400m/usb-fw.o drivers/net/wimax/i2400m/usb-notif.o drivers/net/wimax/i2400m/usb-tx.o drivers/net/wimax/i2400m/usb-rx.o drivers/net/wimax/i2400m/usb.o 

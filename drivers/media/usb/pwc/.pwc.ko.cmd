@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/pwc/pwc.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/pwc/pwc.ko drivers/media/usb/pwc/pwc.o drivers/media/usb/pwc/pwc.mod.o

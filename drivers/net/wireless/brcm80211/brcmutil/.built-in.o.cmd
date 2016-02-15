@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/brcm80211/brcmutil/built-in.o :=  rm -f drivers/net/wireless/brcm80211/brcmutil/built-in.o; /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ar rcsD drivers/net/wireless/brcm80211/brcmutil/built-in.o

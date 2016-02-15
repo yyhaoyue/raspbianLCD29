@@ -1,0 +1,1 @@
+cmd_drivers/net/ppp/pppoe.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/ppp/pppoe.ko drivers/net/ppp/pppoe.o drivers/net/ppp/pppoe.mod.o

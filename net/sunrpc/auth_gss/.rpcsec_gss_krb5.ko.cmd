@@ -1,0 +1,1 @@
+cmd_net/sunrpc/auth_gss/rpcsec_gss_krb5.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sunrpc/auth_gss/rpcsec_gss_krb5.ko net/sunrpc/auth_gss/rpcsec_gss_krb5.o net/sunrpc/auth_gss/rpcsec_gss_krb5.mod.o

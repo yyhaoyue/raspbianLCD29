@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/isl6423.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/isl6423.ko drivers/media/dvb-frontends/isl6423.o drivers/media/dvb-frontends/isl6423.mod.o

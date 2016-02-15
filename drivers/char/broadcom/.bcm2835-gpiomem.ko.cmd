@@ -1,0 +1,1 @@
+cmd_drivers/char/broadcom/bcm2835-gpiomem.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/char/broadcom/bcm2835-gpiomem.ko drivers/char/broadcom/bcm2835-gpiomem.o drivers/char/broadcom/bcm2835-gpiomem.mod.o

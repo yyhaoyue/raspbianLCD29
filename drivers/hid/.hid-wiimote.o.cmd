@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-wiimote.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/hid/hid-wiimote.o drivers/hid/hid-wiimote-core.o drivers/hid/hid-wiimote-modules.o drivers/hid/hid-wiimote-debug.o 

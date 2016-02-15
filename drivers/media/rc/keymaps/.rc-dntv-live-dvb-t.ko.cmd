@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-dntv-live-dvb-t.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-dntv-live-dvb-t.ko drivers/media/rc/keymaps/rc-dntv-live-dvb-t.o drivers/media/rc/keymaps/rc-dntv-live-dvb-t.mod.o

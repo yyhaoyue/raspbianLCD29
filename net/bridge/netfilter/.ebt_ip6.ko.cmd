@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebt_ip6.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/bridge/netfilter/ebt_ip6.ko net/bridge/netfilter/ebt_ip6.o net/bridge/netfilter/ebt_ip6.mod.o

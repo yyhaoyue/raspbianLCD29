@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_conntrack_amanda.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/nf_conntrack_amanda.ko net/netfilter/nf_conntrack_amanda.o net/netfilter/nf_conntrack_amanda.mod.o

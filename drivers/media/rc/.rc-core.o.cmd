@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/rc-core.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/rc/rc-core.o drivers/media/rc/rc-main.o drivers/media/rc/rc-ir-raw.o 

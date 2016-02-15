@@ -1,0 +1,1 @@
+cmd_sound/core/snd-pcm-dmaengine.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/core/snd-pcm-dmaengine.o sound/core/pcm_dmaengine.o 

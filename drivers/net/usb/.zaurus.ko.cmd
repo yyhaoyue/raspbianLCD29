@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/zaurus.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/usb/zaurus.ko drivers/net/usb/zaurus.o drivers/net/usb/zaurus.mod.o

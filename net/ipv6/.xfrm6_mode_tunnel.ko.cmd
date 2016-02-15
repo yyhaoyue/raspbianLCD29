@@ -1,0 +1,1 @@
+cmd_net/ipv6/xfrm6_mode_tunnel.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/ipv6/xfrm6_mode_tunnel.ko net/ipv6/xfrm6_mode_tunnel.o net/ipv6/xfrm6_mode_tunnel.mod.o

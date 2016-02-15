@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-dm1105-nec.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-dm1105-nec.ko drivers/media/rc/keymaps/rc-dm1105-nec.o drivers/media/rc/keymaps/rc-dm1105-nec.mod.o

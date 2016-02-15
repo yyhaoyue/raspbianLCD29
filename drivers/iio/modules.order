@@ -1,0 +1,4 @@
+kernel/drivers/iio/adc/mcp320x.ko
+kernel/drivers/iio/humidity/dht11.ko
+kernel/drivers/iio/industrialio.ko
+kernel/drivers/iio/kfifo_buf.ko

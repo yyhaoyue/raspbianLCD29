@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/bcm/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/pinctrl/bcm/built-in.o drivers/pinctrl/bcm/pinctrl-bcm2835.o 

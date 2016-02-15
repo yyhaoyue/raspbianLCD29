@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/usbvision/usbvision.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/usbvision/usbvision.ko drivers/media/usb/usbvision/usbvision.o drivers/media/usb/usbvision/usbvision.mod.o

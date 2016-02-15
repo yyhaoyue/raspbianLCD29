@@ -1,0 +1,1 @@
+cmd_drivers/usb/atm/cxacru.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/atm/cxacru.ko drivers/usb/atm/cxacru.o drivers/usb/atm/cxacru.mod.o

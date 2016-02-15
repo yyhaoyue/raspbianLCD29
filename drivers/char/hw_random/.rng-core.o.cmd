@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/rng-core.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/char/hw_random/rng-core.o drivers/char/hw_random/core.o 

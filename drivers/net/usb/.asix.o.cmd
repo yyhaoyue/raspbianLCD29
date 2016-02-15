@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/asix.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/usb/asix.o drivers/net/usb/asix_devices.o drivers/net/usb/asix_common.o drivers/net/usb/ax88172a.o 

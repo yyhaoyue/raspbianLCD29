@@ -1,0 +1,1 @@
+cmd_mm/zsmalloc.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o mm/zsmalloc.ko mm/zsmalloc.o mm/zsmalloc.mod.o

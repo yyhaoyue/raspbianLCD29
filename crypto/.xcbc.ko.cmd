@@ -1,0 +1,1 @@
+cmd_crypto/xcbc.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o crypto/xcbc.ko crypto/xcbc.o crypto/xcbc.mod.o

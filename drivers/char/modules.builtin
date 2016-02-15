@@ -1,0 +1,4 @@
+kernel/drivers/char/ttyprintk.ko
+kernel/drivers/char/raw.ko
+kernel/drivers/char/broadcom/vcio.ko
+kernel/drivers/char/hw_random/rng-core.ko

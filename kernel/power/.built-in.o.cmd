@@ -1,0 +1,1 @@
+cmd_kernel/power/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o kernel/power/built-in.o kernel/power/qos.o kernel/power/process.o kernel/power/poweroff.o 

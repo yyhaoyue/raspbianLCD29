@@ -1,0 +1,1 @@
+cmd_sound/drivers/mpu401/snd-mpu401-uart.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/drivers/mpu401/snd-mpu401-uart.o sound/drivers/mpu401/mpu401_uart.o 

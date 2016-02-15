@@ -1,0 +1,1 @@
+cmd_net/sched/act_ipt.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/act_ipt.ko net/sched/act_ipt.o net/sched/act_ipt.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/rtc/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/rtc/built-in.o drivers/rtc/rtc-lib.o drivers/rtc/systohc.o drivers/rtc/rtc-core.o 

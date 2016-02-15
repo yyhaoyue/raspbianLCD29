@@ -1,0 +1,1 @@
+cmd_drivers/media/common/tveeprom.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/common/tveeprom.ko drivers/media/common/tveeprom.o drivers/media/common/tveeprom.mod.o

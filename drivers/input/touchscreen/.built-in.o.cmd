@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.o :=  /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/input/touchscreen/built-in.o drivers/input/touchscreen/of_touchscreen.o 

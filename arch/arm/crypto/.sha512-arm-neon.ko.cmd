@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/sha512-arm-neon.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o arch/arm/crypto/sha512-arm-neon.ko arch/arm/crypto/sha512-arm-neon.o arch/arm/crypto/sha512-arm-neon.mod.o

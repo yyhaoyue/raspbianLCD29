@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/tm6000/tm6000-alsa.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/tm6000/tm6000-alsa.ko drivers/media/usb/tm6000/tm6000-alsa.o drivers/media/usb/tm6000/tm6000-alsa.mod.o

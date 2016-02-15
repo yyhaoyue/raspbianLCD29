@@ -1,0 +1,1 @@
+cmd_fs/nfs/nfsv3.o := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/nfs/nfsv3.o fs/nfs/nfs3super.o fs/nfs/nfs3client.o fs/nfs/nfs3proc.o fs/nfs/nfs3xdr.o fs/nfs/nfs3acl.o 

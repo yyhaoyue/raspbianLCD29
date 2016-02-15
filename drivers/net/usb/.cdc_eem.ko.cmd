@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/cdc_eem.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/usb/cdc_eem.ko drivers/net/usb/cdc_eem.o drivers/net/usb/cdc_eem.mod.o

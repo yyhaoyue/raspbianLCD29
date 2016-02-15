@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/gpio_keys.ko := /home/user/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/keyboard/gpio_keys.ko drivers/input/keyboard/gpio_keys.o drivers/input/keyboard/gpio_keys.mod.o
